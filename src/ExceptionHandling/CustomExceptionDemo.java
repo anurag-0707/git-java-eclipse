@@ -8,8 +8,7 @@ public class CustomExceptionDemo {
 			x = 10 / 0;
 		} catch (ArithmeticException ae) {
 			// throw new CustomException("Division By zero not allowed");
-			System.out.println("Divisor is 0, please Change");
-			
+			System.out.println("Divisor is 0, please Change");			
 		}
 		finally{
 		System.out.println(x);
